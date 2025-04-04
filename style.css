@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(255, 204, 0, 0.9);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+h1 {
+    margin: 0;
+    color: black;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.button {
+    display: block;
+    width: 250px;
+    padding: 15px;
+    margin: 10px auto;
+    text-decoration: none;
+    background: #FFCC00;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #FFB300;
+}
